@@ -1,0 +1,16 @@
+# Secrets and local configuration
+.env
+config.local.py
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local/generated bot data
+ocr_tmp/
+*_rates.jpg
+
+# Historical prototypes are retained locally, not included in the public source
+archive/
